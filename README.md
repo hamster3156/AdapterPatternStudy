@@ -7,3 +7,4 @@
 | IReceiveJobSalary | Jobクラスの給料取得処理を提供するインターフェース |
 
 # アウトプットで作成した記事
+https://qiita.com/game_hamster/items/aca8bedfaa8ba2ad082b
