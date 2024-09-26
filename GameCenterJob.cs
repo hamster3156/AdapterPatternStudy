@@ -2,7 +2,7 @@ namespace Hamster.DesignPattern
 {
     public class GameCenterJob : IReceiveJobSalary
     {
-        // 1ŽžŠÔ•Ó‚è‚ÌŽž‹‹
+        // æ™‚çµ¦
         private int hourlyWage = 1200;
 
         public int ReceiveJobSalary(int workHours)
