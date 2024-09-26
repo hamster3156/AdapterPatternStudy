@@ -4,6 +4,6 @@
 | BonusGameCenterJob | Adapterクラス |
 | GameCenterJob | 時給計算を行っているクラス |
 | Human | Jobクラスの時給取得処理を実行するクラス |
-| IReceiveJobSalary | Jobクラス内で給料の取得処理で利用しているインターフェース |
+| IReceiveJobSalary | Jobクラスの給料取得処理を提供するインターフェース |
 
 # アウトプットで作成した記事
