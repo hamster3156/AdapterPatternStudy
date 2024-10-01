@@ -2,10 +2,10 @@ namespace Hamster.DesignPattern
 {
     public class GameCenterWorkAdapter : IReceiveWorkSalary
     {
-        // “Á’è‚ÌƒCƒ“ƒ^ƒtƒF[ƒX‚É‚µ‚½‚¢ƒNƒ‰ƒX
+        // ç‰¹å®šã®ã‚¤ãƒ³ã‚¿ãƒ•ã‚§ãƒ¼ã‚¹ã«ã—ãŸã„ã‚¯ãƒ©ã‚¹
         private GameCenterPartTimeWork gameCenterJob;
 
-        // ŒÅ’è‚Å8ŽžŠÔ“­‚­
+        // å›ºå®šã§8æ™‚é–“åƒã
         private int workHours = 8;
 
         public GameCenterWorkAdapter()
@@ -14,9 +14,8 @@ namespace Hamster.DesignPattern
         }
 
         /// <summary>
-        /// ƒQ[ƒ€ƒZƒ“ƒ^[ƒNƒ‰ƒX‚Ì‹‹—¿Žæ“¾ˆ—‚ð•Ô‚·
+        /// ã‚²ãƒ¼ãƒ ã‚»ãƒ³ã‚¿ãƒ¼ã‚¯ãƒ©ã‚¹ã®çµ¦æ–™å–å¾—å‡¦ç†ã‚’è¿”ã™
         /// </summary>
-        /// <returns></returns>
         public int ReceiveWorkSalary()
         {
             return gameCenterJob.PerHourSalary(workHours);
