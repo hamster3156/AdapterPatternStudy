@@ -2,7 +2,7 @@ namespace Hamster.DesignPattern
 {
     public class GameCenterWorkAdapter : IReceiveWorkSalary
     {
-        // 特定のインタフェースにしたいクラス
+        // 特定のインタフェースに対応したいクラス
         private GameCenterPartTimeWork gameCenterJob;
 
         // 固定で8時間働く
